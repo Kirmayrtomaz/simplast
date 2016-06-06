@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 24, 2016, 6:06:04 PM
+    Author     : kirmayr
+*/
+
+
+
+$vermelho-sombra : rgba(255, 0, 0, 1) ;
+$cinza-sombra :#BFBCBC;
+hr.sombra { 
+    border: 0; 
+    height: 1.79px;
+    position: relative;
+    margin: 0.3em 0; /* Keep other elements away from pseudo elements*/
+    color:red;
+}
+hr.sombra:before {
+    top: -0.2em;
+    height: 0.5em;
+    
+}
+hr.sombra:after {
+    content:'';
+    height: 0.1em;   /* half the height of :before */
+    top: 1px;        /* height of hr*/
+}
+
+hr.sombra:before, hr.sombra:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+hr.sombra-vermelha, hr.sombra-vermelha:before {
+    background: -moz-radial-gradient(center, ellipse cover, $vermelho-sombra 0%, rgba(0,0,0,0) 70%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,$vermelho-sombra), color-stop(70%,rgba(0,0,0,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, $vermelho-sombra 0%,rgba(0,0,0,0) 70%);
+    background: -o-radial-gradient(center, ellipse cover, $vermelho-sombra 0%,rgba(0,0,0,0) 70%);
+    background: -ms-radial-gradient(center, ellipse cover, $vermelho-sombra 0%,rgba(0,0,0,0) 70%);
+    background: radial-gradient(ellipse at center, $vermelho-sombra 0%,rgba(0,0,0,0) 70%);
+}
+
+
+hr.sombra-cinza, hr.sombra-cinza:before {
+    background: -moz-radial-gradient(center, ellipse cover, $cinza-sombra 0%, rgba(0,0,0,0) 70%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,$cinza-sombra), color-stop(70%,rgba(0,0,0,0)));
+    background: -webkit-radial-gradient(center, ellipse cover, $cinza-sombra 0%,rgba(0,0,0,0) 70%);
+    background: -o-radial-gradient(center, ellipse cover, $cinza-sombra 0%,rgba(0,0,0,0) 70%);
+    background: -ms-radial-gradient(center, ellipse cover, $cinza-sombra 0%,rgba(0,0,0,0) 70%);
+    background: radial-gradient(ellipse at center, $cinza-sombra 0%,rgba(0,0,0,0) 70%);
+}
+
+
+.center-div {
+    right: 0;
+    left: 0;
+    margin: auto;
+}

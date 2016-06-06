@@ -1,0 +1,9 @@
+<nav class="mp col s12 indigo">
+    <div class="nav-wrapper  darken-4">
+        <div class="col s12">
+            <a href="#!" class="breadcrumb">First</a>
+            <a href="#!" class="breadcrumb">Second</a>
+            <a href="#!" class="breadcrumb">Third</a>
+        </div>
+    </div>
+</nav>

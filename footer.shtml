@@ -1,0 +1,101 @@
+                        <!-- Footer-->
+        
+        
+                        <footer class="page-footer">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col l3 s18 m12 " >
+                                        <a href="#!" class="brand-logo">
+                                            <img src="res/img/logo_white.png" class="logo"/>
+                                        </a>
+                                        <p class="grey-text text-lighten-4">Sindicato das Indústrias de Material Plástico de Manaus Av. Fábio Lucena , 1460 - 3º andar - cj 31 69076-800 - Manaus - AM Tel.: (92) 3237-3817</p>
+                                    </div>
+                                    <div class="col l3  s12">
+                                        <h5 class="white-text center-align">Menu</h5>
+                                        <ul>
+
+                                            <li class="center-align"><a class="grey-text text-lighten-3"  href="#">o simplast</a></li>
+
+                                            <li  class="center-align"><a  class="grey-text text-lighten-3"  href="#">eventos</a></li>
+                                            <li class="center-align"><a  class="grey-text text-lighten-3" href="#">notícias</a></li>
+                                            <li class="center-align"><a class="grey-text text-lighten-3"  href="#">serviços</a></li>
+                                            <li class="center-align"><a  class="grey-text text-lighten-3"  href="#">publicações</a></li>
+                                            <li class="center-align"><a  class="grey-text text-lighten-3"  href="#">área do associado</a></li>
+                                            <li class="center-align"><a  class="grey-text text-lighten-3"  href="#">contato</a></li>
+                                        </ul>
+                                    </div>
+
+
+                                    <div class="col l3  s12">
+                                        <h5 class="white-text center-alig center-align">newsletter</h5>
+                                        <div class="input-field col l12 s12">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="nome" type="text" class="validate">
+                                            <label for="nome">Nome</label>
+                                        </div>
+                                        <div class="input-field col l12 s12">
+                                            <i class="material-icons prefix">location_city</i>
+                                            <input id="empresa" type="text" class="validate">
+                                            <label for="empresa">Empresa</label>
+                                        </div>
+                                        <div class="input-field col l12 s12">
+                                            <i class="material-icons prefix">email</i>
+                                            <input id="email" type="text" class="validate">
+                                            <label for="email">Email</label>
+                                            <a class="waves-effect waves-light btn right grey">Cadastrar</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col l3  s12 simplast-na-rede">
+                                        <h5 class="white-text center-alig center-align">simplast na rede</h5> 
+
+                                        <div class="col l12 s12">
+                                            <div class="col l12 s12">
+                                                <label class="white-text">Instagram</label>
+                                            </div>
+                                            <div class="col l6 s6 m6">
+                                                <a href="#" >
+                                                    <img src="http://dummyimage.com/100x100">
+                                                </a>
+                                            </div>
+                                            <div class="col l6 s6 m6">
+                                                <a href="#" >
+                                                    <img src="http://dummyimage.com/100x100">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col l12 s12">
+                                            <div class="col l12 s12">
+                                                <label class="white-text">facebook</label>
+                                            </div>
+                                            <div class="col l6 s6 m6">
+                                                <a href="#" >
+                                                    <img src="http://dummyimage.com/100x100">
+                                                </a>
+                                            </div>
+                                            <div class="col l6 s6 m6">
+                                                <a href="#" >
+                                                    <img src="http://dummyimage.com/100x100">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-copyright">
+                                    <div class="container">
+                                        © 2016 Todos os Direito Reservados
+                                    </div>
+                                </div>
+                        </footer>
+                        
+                        
+    <script src="res/lib/js/jquery.js"></script>
+    <script src="res/app/libs.js"></script>
+    <script src="res/app/simplast.js"></script>
+                   
+
+
+
+    </body>
+
+</html>

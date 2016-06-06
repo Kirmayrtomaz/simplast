@@ -1,0 +1,309 @@
+$azul:#3B3294;
+
+$cinza:#4e4e4e;
+
+.titulo{
+    padding: 30px 0 0 0;
+    color: #3B3294;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 110%;
+    font-weight: 400;
+}
+
+.collapsible{
+    border-top: 0px solid #ddd; 
+    border-right: 0px solid #ddd;
+    border-left: 0px solid #ddd;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+.pagination li.active {
+    background-color: $cinza;
+}
+    
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background:white;
+}
+
+header.navegacao{
+    
+ 
+    width: 100%;
+    transition: max-height 0.15s ease-out;
+    &.small-menu{
+               z-index: 3;
+        position: fixed;
+       transition: max-height 0.25s ease-in;
+        .nav-wrapper{
+            height:70px;
+             opacity: 0.7;
+                 padding: 0 20px!important;
+             &:hover{
+                 opacity: 1 ;
+                 transition: opacity .4s ;
+                 
+             }
+             
+             .brand-logo{
+                
+             }
+            .logo{
+                height: 50px!important;
+                margin-left: 30px;
+            }
+            
+            ul.hide-on-med-and-down {
+             margin-right: 40px!important;
+                li{
+                 padding: 0px 0px;
+                    
+            }
+            }
+         }
+    }
+    
+    nav{
+        background: white;
+         /*opacity: 0.8;*/
+    }
+    .nav-wrapper{
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 ;
+            background: white;
+            height:112px;
+            .logo{
+                width: auto;
+                height: 100px;
+                margin-top: 10px;
+            }
+
+            ul.hide-on-med-and-down{
+                height: 100px;
+                li {
+                    
+                    padding: 24px 0px;
+                    a{
+                        color: grey;
+                        text-transform: uppercase;
+                        color:$azul;
+                        font-weight: 700;
+                             padding: 0 0px !important; 
+                        cursor: pointer;
+                        margin: 0 15px!important;
+                            height: 46px;
+                            
+                        &.selecionado{
+                               border-bottom: 3px solid red;
+                               
+                        }
+
+                    }
+                    
+                    
+                }
+            }
+
+    }
+}
+
+
+main.principal{
+
+    .container {
+        width: 80%;
+    }
+
+    .topico{
+        color: $azul;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    .recentes{
+        border-top: 1px solid rgba(160, 160, 160, 0.2);
+        padding: 10px;
+        
+    }
+
+    .primeira{
+        padding-top: 100px;
+    }
+
+    .nome-noticia{
+        color: #000;
+        &:hover{
+            color: $azul;
+        }
+    }
+
+    input[type=text]:focus:not([readonly]) + label,
+    input[type=tel]:focus:not([readonly]) + label,
+    input[type=email]:focus:not([readonly]) + label,
+    textarea.materialize-textarea:focus:not([readonly]) + label{
+        color: $azul;
+    }
+
+    input[type=text]:focus:not([readonly]),
+    input[type=tel]:focus:not([readonly]), 
+    input[type=email]:focus:not([readonly]),
+    textarea.materialize-textarea:focus:not([readonly]) {
+        color: $azul;
+        border-bottom: 1px solid $azul;
+        box-shadow: 0 1px 0 0 $azul;
+    }
+
+    .titulo-eventos{
+            padding: 30px 0;
+            color:$azul;
+            
+            h5{
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+            
+            hr{
+                width: 130px;
+                right: 0;
+                left: 0;
+                margin: auto auto;
+            }
+           
+
+        }
+    
+    .slide-main{
+        padding: 0!important;
+        
+        .slider{
+            height: 80vh!important;
+            
+            .slides{
+                 height: 80vh!important;
+            
+            }
+        }
+    }
+    
+    
+    
+    .eventos{
+        
+        .bloco-eventos{        background:url(../img/pattern.png);
+
+
+        }
+        
+        
+
+        .card{
+            box-shadow:  0;
+            .card-action{
+
+
+                .social{
+                    background-color: #ffffff!important;
+                   position: relative;
+                   padding: 0px;
+                   margin: 0 0 0  1px!important;
+                   width:35px;
+                   padding: 0px;
+                   width: 32px;
+                   height: 32px;
+                   border-radius: 50%;
+                   
+                   img{
+                       width: inherit;
+                       border-radius: 50%;
+                   }
+                }
+                
+                .compartilhe{
+                    font-size: 15px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        
+    }
+    
+    
+    .pesquisar{
+        
+        input,i{
+            color:$azul;
+            
+            
+        }
+    }
+
+    .links-rapidos{
+
+        .banner{ 
+            position:relative;
+             width:250px;
+             height:100px;
+             margin:10px 0 10px 0;
+            a{
+                width:250px;
+                position: absolute;
+                height:100px;
+                right: 0;
+                left: 0;
+                margin: auto;
+                img {
+                    width: 250px;
+                    height:100px;
+
+                }
+            }
+        
+            .facebook{
+                @extend .center-div;
+                width: 250px;
+            }
+        }
+    }
+    
+    
+    #map{
+        height: 400px;
+    }
+    
+    .page-logo{
+        
+        min-height: 300px;
+        .titulo-eventos{
+            margin-bottom: 60px;
+            margin-top: 40px;
+        }
+        .logo-main{
+            margin-top: 30px;
+            margin-top: 70px;
+            rigth:0;
+            left:0;
+            margin:auto;
+            div {
+                margin: 0 35px;
+            }
+        }
+    }
+    
+    
+}
+
+
+
+footer{
+    background-color: $cinza;
+
+    h5{
+        text-transform: uppercase;
+    }
+    i{
+        color:white;
+    }
+}
