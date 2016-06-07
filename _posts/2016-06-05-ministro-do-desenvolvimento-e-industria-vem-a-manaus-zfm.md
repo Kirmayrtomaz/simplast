@@ -3,6 +3,10 @@ layout: post
 title:  "10 de Junho. Ministro de Desenvolvimento e Insdústria vem a Manaus tratar sobre ZMF"
 date:   2016-06-05 17:46:41 -0300
 categories: noticias
+
+images:
+
+  - url: /res/img/ministro.jpg
 ---
 
 

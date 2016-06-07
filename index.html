@@ -23,7 +23,8 @@ layout: home
                         <div class="col s12 m12 l4">
                             <div class="card hoverable">
                                 <div class="card-image ">
-                                    <img src="http://dummyimage.com/300x300">
+                                  {% assign image = post.images[0] %}
+                                    <img src="{{ post.images[0].url | prepend: site.baseurl}}">
                                     <span class="card-title">{{post.title  | strip_html | truncate:40}}</span>
                                 </div>
                                 <div class="card-content ">
@@ -64,11 +65,12 @@ layout: home
                             <div class="col s12 m12 l4">
                                 <div class="card hoverable">
                                     <div class="card-image ">
-                                        <img src="http://dummyimage.com/300x300">
-                                        <span class="card-title">Card Title</span>
+
+                                        <img src="{{ post.images[0].url | prepend: site.baseurl}}">
+                                      
                                     </div>
                                     <div class="card-content ">
-                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                          {{ post.content | strip_html | truncate:100 }}
                                     </div>
                                     <div class="card-action">
 
@@ -125,7 +127,7 @@ layout: home
                                 <div class="col s12 m12 l12 s12 links-rapidos"style="
                                      height: 533px;
                                      " >
-                                    <h5 class="center-align titulo">facebook</h5>
+                                  <!--  <h5 class="center-align titulo">facebook</h5> -->
                                     <div class="col s12 m12 l12 s12 banner">
 
                                         <iframe class="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsimplast-am%2F&tabs=timeline&width=250&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=843122292465754" width="250" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
@@ -137,7 +139,7 @@ layout: home
 
 
 
-                        <!-- Footer-->
+                         Footer-->
 
 
 
@@ -173,12 +175,12 @@ layout: home
                                         </a>
                                     </div>
                                 </div>
-                            </section>
-                            <section id="map" class="col l12 s12 m12 z-depth-2">
+                            </section>-->
+                            <section id="map" class="col l12 s12 m12 ">
 	                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.920091095326!2d-59.9819246275433!3d-3.1158418847989027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c0520b7dd1a23%3A0x306154f6f542d994!2sJapiim%2C+Manaus+-+AM%2C+69076-800!5e0!3m2!1spt-BR!2sbr!4v1461888009829" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </section>
 
-                        </div>-->
+                        </div>
 
 
                         </main>

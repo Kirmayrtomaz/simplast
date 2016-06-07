@@ -24,14 +24,17 @@
 
 
 
-                    <li class="valign-wrapper"><a href="{{site.baseurl}}/" class="selecionado">home</a></li>
-                    <li><a href="{{site.baseurl}}/o-simplast">o simplast</a></li>
-                    <li><a href="{{site.baseurl}}/eventos/">eventos</a></li>
-                    <li><a href="{{site.baseurl}}/noticias/">notícias</a></li>
+
+
+
+                    <li ><a href="{{site.baseurl}}/"  {% if page.url  == '/' %}class='selecionado'{% endif %}>home</a></li>
+                    <li><a href="{{site.baseurl}}/o-simplast" {% if page.url  == '/o-simplast/' %}class='selecionado'{% endif %}>o simplast</a></li>
+                    <li><a href="{{site.baseurl}}/eventos/" {% if page.url  == '/eventos/' %}class='selecionado'{% endif %}>eventos</a></li>
+                    <li><a href="{{site.baseurl}}/noticias/" {% if page.url  == '/noticias/' %}class='selecionado'{% endif %}>notícias</a></li>
                     <!-- <li><a href="#">serviços</a></li>
-                    <li><a href="#">publicações</a></li>
-                    <li><a href="#">área do associado</a></li> -->
-                    <li><a href="{{site.baseurl}}/contato/">contato</a></li>
+                    <li><a href="#">publicações</a></li>-->
+                    <li><a href="{{site.baseurl}}/login/" {% if page.url  == '/login/' %}class='selecionado'{% endif %}>área do associado</a></li>
+                    <li><a href="{{site.baseurl}}/contato/" {% if page.url  == '/contato/' %}class='selecionado'{% endif %}>contato</a></li>
                   <!-- Dropdown Trigger -->
                     <!--<li><a class="dropdown" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>-->
                 </ul>

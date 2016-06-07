@@ -3,6 +3,9 @@ layout: post
 title:  "Ação que merece repercursão"
 date:   2016-06-06 17:46:41 -0300
 categories: noticias
+images:
+
+  - url: /res/img/reciclagem.jpeg
 ---
 
 
