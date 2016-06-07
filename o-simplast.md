@@ -16,3 +16,29 @@ O SIMPLAST dispõe de instalações confortáveis para reuniões e treinamento, 
 Somos o quinto maior faturamento do Pólo Industrial de Manaus e relatórios de junho de 2016, dão conta de que empregamos 9 mil trabalhadores, o que nos faz geradores de emprego e renda para 36 mil pessoas em Manaus.
 
 Ações sociais, filantrópicas e de proteção ao meio ambiente, também fazem parte do calendário de atividades permanentes do SIMPLAST, visto promovemos e apoiarmos atividades nas comunidades próximas às instalações de nossos Associados.
+
+
+## <center>Diretoria
+
+
+<center> Presidente
+<center>CELSO ZILVES
+<center>presidente@simplast-am.org.br
+
+
+
+<center>Diretor Executivo
+<center>PAULO ABREU
+<center>diretor.executivo@simplast-am.org
+
+<center>Assessor Jurídico
+<center>VALDECI SOARES
+<center>assessoria.juridica@simplast-am.org.br
+
+<center>Assessor Técnico
+<center>JOSÉ LUIS JR
+<center>assessoria.tecnica@simplast-am.org.br
+
+<center>Assessor de Comunicação
+<center>ROSIVALDO FERREIRA
+<center>assessoria.comunicacao@simplast-am

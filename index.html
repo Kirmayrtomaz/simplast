@@ -17,38 +17,17 @@ layout: home
                         <hr class="sombra sombra-vermelha" >
                     </div>
                     <div class="bloco-eventos">
-                        <div class="col s12 m12 l4">
-                            <div class="card hoverable">
-                                <div class="card-image ">
-                                    <img src="http://dummyimage.com/300x300">
-                                    <span class="card-title">Card Title</span>
-                                </div>
-                                <div class="card-content ">
-                                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
-                                </div>
-                                <div class="card-action">
+                      {% for post in site.categories.evento limit:3 %}
 
-                                    <a class="social " href="javascript:void(0)">
-                                        <img class="hoverable " src="res/img/facebook-icon.png" alt="Compartilhar no Facebook">
-                                    </a>
-                                    <a class="social " href="javascript:void(0)">
-                                        <img class="hoverable " src="res/img/instagram-icon.png" alt="Compartilhar no Instagram">
-                                    </a>
-                                    <a class="social " href="javascript:void(0)">
-                                        <img class="hoverable " src="res/img/twitter-icon.png" alt="Compartilhar no Twitter">
-                                    </a>
-                                    <span class="compartilhe">compartilhe</span>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="col s12 m12 l4">
                             <div class="card hoverable">
                                 <div class="card-image ">
                                     <img src="http://dummyimage.com/300x300">
-                                    <span class="card-title">Card Title</span>
+                                    <span class="card-title">{{post.title  | strip_html | truncate:40}}</span>
                                 </div>
                                 <div class="card-content ">
-                                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                                    {{ post.content | strip_html | truncate:100 }}
                                 </div>
                                 <div class="card-action">
 
@@ -66,32 +45,9 @@ layout: home
                             </div>
                         </div>
 
-                        <div class="col s12 m12 l4">
-                            <div class="card hoverable">
-                                <div class="card-image ">
-                                    <img src="http://dummyimage.com/300x300">
-                                    <span class="card-title">Card Title</span>
-                                </div>
-                                <div class="card-content ">
-                                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
-                                </div>
-                                <div class="card-action">
-
-                                    <a class="social " href="javascript:void(0)">
-                                        <img class="hoverable " src="res/img/facebook-icon.png" alt="Compartilhar no Facebook">
-                                    </a>
-                                    <a class="social " href="javascript:void(0)">
-                                        <img class="hoverable " src="res/img/instagram-icon.png" alt="Compartilhar no Instagram">
-                                    </a>
-                                    <a class="social " href="javascript:void(0)">
-                                        <img class="hoverable " src="res/img/twitter-icon.png" alt="Compartilhar no Twitter">
-                                    </a>
-                                    <span class="compartilhe">compartilhe</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col10" >
-                            <h5 class="left-align">Veja mais...</h5>
+                        {% endfor %}
+                          <div class="col s12 m12 col12" >
+                          <a href="{{site.baseurl}}/noticias/"  >  <h5 class="left-align">Veja mais...</h5></a>
                         </div>
 
                         <div>
@@ -104,7 +60,7 @@ layout: home
                                 <h5 class="center-align">últimas notícias</h5>
                                 <hr class="sombra sombra-vermelha" >
                             </div>
-
+                            {% for post in site.categories.noticias limit:3 %}
                             <div class="col s12 m12 l4">
                                 <div class="card hoverable">
                                     <div class="card-image ">
@@ -129,57 +85,11 @@ layout: home
                                     </div>
                                 </div>
                             </div>
-                            <div class="col s12 m12 l4">
-                                <div class="card hoverable">
-                                    <div class="card-image ">
-                                        <img src="http://dummyimage.com/300x300">
-                                        <span class="card-title">Card Title</span>
-                                    </div>
-                                    <div class="card-content ">
-                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
-                                    </div>
-                                    <div class="card-action">
+                            {% endfor %}
 
-                                        <a class="social " href="javascript:void(0)">
-                                            <img class="hoverable " src="res/img/facebook-icon.png" alt="Compartilhar no Facebook">
-                                        </a>
-                                        <a class="social " href="javascript:void(0)">
-                                            <img class="hoverable " src="res/img/instagram-icon.png" alt="Compartilhar no Instagram">
-                                        </a>
-                                        <a class="social " href="javascript:void(0)">
-                                            <img class="hoverable " src="res/img/twitter-icon.png" alt="Compartilhar no Twitter">
-                                        </a>
-                                        <span class="compartilhe">compartilhe</span>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="col s12 m12 l4">
-                                <div class="card hoverable">
-                                    <div class="card-image ">
-                                        <img src="http://dummyimage.com/300x300">
-                                        <span class="card-title">Card Title</span>
-                                    </div>
-                                    <div class="card-content ">
-                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
-                                    </div>
-                                    <div class="card-action">
-
-                                        <a class="social " href="javascript:void(0)">
-                                            <img class="hoverable " src="res/img/facebook-icon.png" alt="Compartilhar no Facebook">
-                                        </a>
-                                        <a class="social " href="javascript:void(0)">
-                                            <img class="hoverable " src="res/img/instagram-icon.png" alt="Compartilhar no Instagram">
-                                        </a>
-                                        <a class="social " href="javascript:void(0)">
-                                            <img class="hoverable " src="res/img/twitter-icon.png" alt="Compartilhar no Twitter">
-                                        </a>
-                                        <span class="compartilhe">compartilhe</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col10" >
-                                <h5 class="left-align">Veja mais...</h5>
+                            <div class="col s12 m12 col12" >
+                              <a href="{{site.baseurl}}/noticias/"  ><h5 class="left-align">Veja mais...</h5></a>
                             </div>
                             </section>
 
