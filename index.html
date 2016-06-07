@@ -26,7 +26,7 @@ layout: home
                                 <div class="card-image ">
                                   {% assign image = post.images[0] %}
                                     <img src="{{ post.images[0].url | prepend: site.baseurl}}">
-                                    <span class="card-title">{{post.title  | strip_html | truncate:40}}</span>
+                                    <!-- <span class="card-title">{{post.title  | strip_html | truncate:40}}</span> -->
                                 </div>
                                 <div class="card-content ">
                                     {{ post.content | strip_html | truncate:100 }}
