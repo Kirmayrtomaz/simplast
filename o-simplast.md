@@ -18,27 +18,7 @@ Somos o quinto maior faturamento do Pólo Industrial de Manaus e relatórios de 
 Ações sociais, filantrópicas e de proteção ao meio ambiente, também fazem parte do calendário de atividades permanentes do SIMPLAST, visto promovemos e apoiarmos atividades nas comunidades próximas às instalações de nossos Associados.
 
 
-## <center>Diretoria
 
-
-<center> Presidente
-<center>CELSO ZILVES
-<center>presidente@simplast-am.org.br
-
-
-
-<center>Diretor Executivo
-<center>PAULO ABREU
-<center>diretor.executivo@simplast-am.org
-
-<center>Assessor Jurídico
-<center>VALDECI SOARES
-<center>assessoria.juridica@simplast-am.org.br
-
-<center>Assessor Técnico
-<center>JOSÉ LUIS JR
-<center>assessoria.tecnica@simplast-am.org.br
-
-<center>Assessor de Comunicação
-<center>ROSIVALDO FERREIRA
-<center>assessoria.comunicacao@simplast-am
+|     |   |
+| :-------------: | :-------------: |
+| ![diretor](/simplast/res/img/diretor.jpg)<br> Presidente CELSO ZILVES       | <br>**Presidente** <center>CELSO ZILVES <center>presidente@simplast-am.org.br<br><br>  <strong>Diretor Executivo</strong> <br> PAULO ABREU <center>diretor.executivo@simplast-am.org<br><br> <center><strong>Assessor Jurídico</strong> <center>VALDECI SOARES <center>assessoria.juridica@simplast-am.org.br<br><br> <center><strong>Assessor Técnico</strong> <center>JOSÉ LUIS JR <center>assessoria.tecnica@simplast-am.org.br <br><br><center><strong>Assessor de Comunicação</strong> <center>ROSIVALDO FERREIRA <center>assessoria.comunicacao@simplast-am |
