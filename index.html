@@ -5,34 +5,9 @@ layout: home
         <main class="principal">
             <div class="row">
 
+
                 <!--slide-->
-                <section class="col s12 slide-main z-depth-2" >
-                    <div class="slider">
-                        <ul class="slides">
-                            <li>
-                                <img src="http://dummyimage.com/16:9x1080"> <!-- random image -->
-                                <div class="caption center-align">
-                                    <h3>This is our big Tagline!</h3>
-                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="http://dummyimage.com/16:9x1080"> <!-- random image -->
-                                <div class="caption left-align">
-                                    <h3>Left Aligned Caption</h3>
-                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="http://dummyimage.com/16:9x1080"> <!-- random image -->
-                                <div class="caption right-align">
-                                    <h3>Right Aligned Caption</h3>
-                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+          {% include slider.html %}
 
 
                 <!--eventos-->
@@ -222,29 +197,20 @@ layout: home
                                     <h5 class="center-align titulo">Links rápidos</h5>
                                     <div class="col s12 m12 l12 s12 banner">
                                         <a class="hoverable" href="javascript:void(0)">
-                                            <img src="http://dummyimage.com/250x100">
+                                            <img src="{{ "/res/img/cieam.jpg" | prepend:site.baseurl }}">
                                         </a>
                                     </div>
                                     <div class="col s12 m12 l12 s12 banner">
                                         <a class="hoverable" href="javascript:void(0)">
-                                            <img src="http://dummyimage.com/250x100">
+                                            <img src="{{"/res/img/cni.jpg" | prepend: site.baseurl }}">
                                         </a>
                                     </div>
                                     <div class="col s12 m12 l12 s12 banner">
                                         <a class="hoverable" href="javascript:void(0)">
-                                            <img src="http://dummyimage.com/250x100">
+                                            <img src="{{"/res/img/fieam.jpg" | prepend:site.baseurl }}">
                                         </a>
                                     </div>
-                                    <div class="col s12 m12 l12 s12 banner">
-                                        <a class="hoverable" href="javascript:void(0)">
-                                            <img src="http://dummyimage.com/250x100">
-                                        </a>
-                                    </div>
-                                    <div class="col s12 m12 l12 s12 banner">
-                                        <a class="hoverable" href="javascript:void(0)">
-                                            <img src="http://dummyimage.com/250x100">
-                                        </a>
-                                    </div>
+
                                 </div>
                                 <div class="col s12 m12 l12 s12 links-rapidos"style="
                                      height: 533px;
@@ -252,7 +218,7 @@ layout: home
                                     <h5 class="center-align titulo">facebook</h5>
                                     <div class="col s12 m12 l12 s12 banner">
 
-                                        <iframe class="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmanauscult%2F&tabs=timeline&width=250&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=843122292465754" width="250" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        <iframe class="facebook" src="https://www.facebook.com/pages/SIMPLAST-AM/401349093292863?fref=ts" width="250" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                                     </div>
                                 </div>
 
@@ -265,7 +231,7 @@ layout: home
 
 
 
-                        <section class="col l12 s12 m12 z-depth-2 page-logo">
+                    <!--    <section class="col l12 s12 m12 z-depth-2 page-logo">
                                 <div class="col s12 m12 l12 titulo-eventos">
                                     <h5 class="center-align">Parceiros</h5>
                                     <hr class="sombra sombra-vermelha" >
@@ -297,7 +263,7 @@ layout: home
                                         </a>
                                     </div>
                                 </div>
-                            </section>
+                            </section> -->
                             <section id="map" class="col l12 s12 m12 z-depth-2">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.920091095326!2d-59.9819246275433!3d-3.1158418847989027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c0520b7dd1a23%3A0x306154f6f542d994!2sJapiim%2C+Manaus+-+AM%2C+69076-800!5e0!3m2!1spt-BR!2sbr!4v1461888009829" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </section>
