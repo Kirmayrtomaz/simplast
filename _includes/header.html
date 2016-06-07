@@ -16,23 +16,23 @@
                 <ul class="right hide-on-med-and-down">
 
 
-                    {% for page in site.pages %}
+                    <!-- {% for page in site.pages %}
                       {% if  page.title %}
                         <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                       {% endif %}
-                    {% endfor %}
+                    {% endfor %} -->
 
 
 
-                  <!--  <li class="valign-wrapper"><a href="#" class="selecionado">home</a></li>
-                    <li><a href="#">o simplast</a></li>
-                    <li><a href="#">eventos</a></li>
-                    <li><a href="#">notícias</a></li>
-                    <li><a href="#">serviços</a></li>
+                    <li class="valign-wrapper"><a href="{{site.baseurl}}/" class="selecionado">home</a></li>
+                    <li><a href="{{site.baseurl}}/o-simplast">o simplast</a></li>
+                    <li><a href="{{site.baseurl}}/eventos/">eventos</a></li>
+                    <li><a href="{{site.baseurl}}/noticias/">notícias</a></li>
+                    <!-- <li><a href="#">serviços</a></li>
                     <li><a href="#">publicações</a></li>
-                    <li><a href="#">área do associado</a></li>
-                    <li><a href="#">contato</a></li>
-                   Dropdown Trigger -->
+                    <li><a href="#">área do associado</a></li> -->
+                    <li><a href="{{site.baseurl}}/contato/">contato</a></li>
+                  <!-- Dropdown Trigger -->
                     <!--<li><a class="dropdown" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>-->
                 </ul>
 
