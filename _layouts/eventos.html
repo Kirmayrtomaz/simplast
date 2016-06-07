@@ -1,0 +1,89 @@
+{% include head.html %}
+
+<body>
+   <!-- header of the page -->
+   {% include header.html %}
+   <!-- page header -->
+
+        <main class="principal">
+        	<div class="container">
+        	<div class="row">
+        		<section class="col l8 s12">
+                    <h4>Eventos</h4>
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <div class="card hoverable">
+                                <div class="card-image waves-effect waves-block waves-light ">
+                                    <img class="activator" src="http://dummyimage.com/300x300">
+                                </div>
+                                <div class="card-content">
+                                  <span class="card-title activator grey-text text-darken-4">Event Title<i class="material-icons right">more_vert</i></span>
+                                  <p><label>3 de maio de 2016</label></p>
+                                </div>
+                                <div class="card-reveal">
+                                  <span class="card-title grey-text text-darken-4">Event Title<i class="material-icons right">close</i></span>
+                                  <p>Aqui pode haver o local onde o evento foi realizado e uma pequena descrição.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col l12 s12 center">
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                            <li class="active"><a href="#!">1</a></li>
+                            <li class="waves-effect"><a href="#!">2</a></li>
+                            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                          </ul>
+                    </div>
+        		</section>
+        		<section class="col l4 s12 ">
+        			<h4>Próximos Eventos</h4>
+                    <div class="input-field col l12 s12 m12">
+                        <i class="material-icons prefix">search</i>
+                        <input id="text" type="text" class="validate">
+                        <label for="email" data-error="wrong" data-success="right">Digite a pesquisa</label>
+                    </div>
+                    <div class="card primeira">
+                        <b>Maio</b>
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">date_range</i>Event Title</div>
+                              <div class="collapsible-body"><p><label>dia 13 </label>Aqui pode haver o local onde o evento será realizado e uma pequena descrição.</p></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">date_range</i>Event Title</div>
+                              <div class="collapsible-body"><p><label>dia 23 </label>Aqui pode haver o local onde o evento será realizado e uma pequena descrição.</p></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">date_range</i>Event Title</div>
+                              <div class="collapsible-body"><p><label>dia 30 </label>Aqui pode haver o local onde o evento será realizado e uma pequena descrição.</p></div>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="card">
+                        <b>Junho</b>
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">date_range</i>Event Title</div>
+                              <div class="collapsible-body"><p><label>dia 3 </label>Aqui pode haver o local onde o evento será realizado e uma pequena descrição.</p></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">date_range</i>Event Title</div>
+                              <div class="collapsible-body"><p><label>dia 12 </label>Aqui pode haver o local onde o evento será realizado e uma pequena descrição.</p></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">date_range</i>Event Title</div>
+                              <div class="collapsible-body"><p><label>dia 27 </label>Aqui pode haver o local onde o evento será realizado e uma pequena descrição.</p></div>
+                            </li>
+                          </ul>
+                    </div>
+        		</section>
+
+        	</div>
+        	</div>
+        </main>
+
+{% include footer.html %}

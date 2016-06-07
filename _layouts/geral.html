@@ -1,0 +1,39 @@
+ {% include head.html %}
+
+<body>
+    <!-- header of the page -->
+    {% include header.html %}
+    <!-- page header -->
+
+    <main class="o-simplast">
+        <div class="row">
+
+            <!-- slide of the page -->
+            {% include slider.html %}
+            <!-- page slide -->
+
+            <div class="conteudo">
+
+                <!-- slide of the page -->
+                {% include migalha-de-pao.html %}
+                <!-- page slide -->
+
+                <div class="col s9">
+                    <article class="col s12">
+                        <div class="col s12">
+                            <h1>{{ page.title }}</h1>
+                        </div>
+                        <div class="col s12 markdown">
+                            {{ content }}
+                        </div>
+                    </article>
+
+                </div>
+                <div class="col s3">
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>

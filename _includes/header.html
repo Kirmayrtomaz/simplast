@@ -1,18 +1,3 @@
-<!DOCTYPE HTML>
-
-<html>
-
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Simplast</title>
-        <link rel="stylesheet" media="all" href="res/app/lib.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" media="all" href="res/app/index.min.css">
-    
-    </head>
-
-    <body>
 
 <header class=" navegacao ">
             <!-- Dropdown Structure -->
@@ -24,22 +9,33 @@
             </ul>
             <nav class="nav-wrapper" style="    padding: 0 50px;">
 
-                <a href="#!" class="brand-logo">
-                    <img src="res/img/logo.jpg" class="logo"/>
+                <a href="{{ site.baseurl }}" class="brand-logo">
+
+                    <img src="{{"/res/img/logo.jpg" | prepend: site.baseurl }}" class="logo"/>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li class="valign-wrapper"><a href="#" class="selecionado">home</a></li>
-                    <li><a href="#">o simplast</a></li>
 
+
+                    {% for page in site.pages %}
+                      {% if  page.title %}
+                        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                      {% endif %}
+                    {% endfor %}
+
+
+
+                  <!--  <li class="valign-wrapper"><a href="#" class="selecionado">home</a></li>
+                    <li><a href="#">o simplast</a></li>
                     <li><a href="#">eventos</a></li>
                     <li><a href="#">notícias</a></li>
                     <li><a href="#">serviços</a></li>
                     <li><a href="#">publicações</a></li>
                     <li><a href="#">área do associado</a></li>
                     <li><a href="#">contato</a></li>
-                    <!-- Dropdown Trigger -->
+                   Dropdown Trigger -->
                     <!--<li><a class="dropdown" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>-->
                 </ul>
+
 
             </nav>
         </header>
