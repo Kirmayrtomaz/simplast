@@ -8935,9 +8935,9 @@ main .titulo-eventos {
 main .slide-main {
   padding: 0 !important; }
   main .slide-main .slider {
-    height: 80vh !important; }
+    height: 578px }
     main .slide-main .slider .slides {
-      height: 80vh !important; }
+      height: 578px  }
 
 main .eventos .bloco-eventos {
   background: url(../img/pattern.png); }
@@ -9011,7 +9011,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : Apr 24, 2016, 6:06:04 PM
     Author     : kirmayr
 */
