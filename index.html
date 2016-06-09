@@ -65,7 +65,7 @@ layout: home
                             </div>
                             {% for post in site.categories.noticias limit:3 %}
                             <div class="col s12 m12 l4">
-                                <div class="card hoverable">
+                                <div class="card hoverable ">
                                   <a  href="{{ site.baseurl }}{{ post.url }}">
                                     <div class="card-image ">
 
@@ -73,7 +73,7 @@ layout: home
 
                                     </div>
                                     <div class="card-content ">
-                                          {{ post.content | strip_html | truncate:100 }}
+                                          {{ post.content | strip_html | truncate:90 }}
                                     </div>
                                   </a>
                                     <div class="card-action">
@@ -100,6 +100,12 @@ layout: home
                             </section>
 
                             <section class="col s12 m12 l3 m12 ">
+                              <hr style="
+         -moz-box-shadow:    0px -4px 3px rgba(50, 50, 50, 0.75);
+         border: 0;
+         height: 0;
+         border-top: 1px solid rgba(0, 0, 0, 0.1);
+     ">
                                 <div class="col s12 m12 l12 pesquisar">
                                     <h5 class="center-align titulo">pesquisar</h5>
                                     <div class="input-field col l12 s12 m12">
@@ -126,17 +132,31 @@ layout: home
                                             <img src="{{"/res/img/fieam.jpg" | prepend:site.baseurl }}">
                                         </a>
                                     </div>
-
+                                    <div class="col s12 m12 l12 s12 banner">
+                                        <a class="hoverable" href="http://cieam.com.br/">
+                                            <img src="{{ "/res/img/cieam.jpg" | prepend:site.baseurl }}">
+                                        </a>
+                                    </div>
+                                    <div class="col s12 m12 l12 s12 banner">
+                                        <a class="hoverable" href="http://www.portaldaindustria.com.br/cni/">
+                                            <img src="{{"/res/img/cni.jpg" | prepend: site.baseurl }}">
+                                        </a>
+                                    </div>
+                                    <div class="col s12 m12 l12 s12 banner">
+                                        <a class="hoverable" href="http://www.fieam.org.br/">
+                                            <img src="{{"/res/img/fieam.jpg" | prepend:site.baseurl }}">
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="col s12 m12 l12 s12 links-rapidos"style="
+                            <!--     <DIV class="col s12 m12 l12 s12 links-rapidos"style="
                                      height: 533px;
                                      " >
-                                  <!--  <h5 class="center-align titulo">facebook</h5> -->
+                                  <!--  <h5 class="center-align titulo">facebook</h5>
                                     <div class="col s12 m12 l12 s12 banner">
 
                                         <iframe class="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmanauscult%2F&tabs=timeline&width=250&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=843122292465754" width="250" height="390" style="border:none;overflow:hidden     position: absolute;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </section>
 
@@ -147,7 +167,13 @@ layout: home
 
 
 
-                       <section class="col l12 s12 m12 z-depth-2 page-logo">
+                       <section class="col l12 s12 m12 page-logo">
+                         <hr style="
+    -moz-box-shadow:    0px -4px 3px rgba(50, 50, 50, 0.75);
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+">
                                 <div class="col s12 m12 l12 titulo-eventos">
                                     <h5 class="center-align">Parceiros</h5>
                                     <hr class="sombra sombra-vermelha" >

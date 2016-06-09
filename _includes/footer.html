@@ -4,13 +4,13 @@
                         <footer class="page-footer">
                             <div class="">
                                 <div class="row">
-                                    <div class="col l3 s18 m12 " >
+                                    <div class="col l5 s18 m12 " >
                                         <a href="#!" class="brand-logo">
                                             <img src={{"/res/img/logo_white.png" | prepend: site.baseurl }} class="logo"/>
                                         </a>
-                                        <p class="grey-text text-lighten-4">Sindicato das Indústrias de Material Plástico de Manaus Av. Fábio Lucena , 1460 - 3º andar - cj 31 69076-800 - Manaus - AM Tel.: (92) 3237-3817</p>
+
                                     </div>
-                                    <div class="col l3  s12">
+                                    <!-- <div class="col l3  s12">
                                         <h5 class="white-text center-align">Menu</h5>
                                         <ul>
 
@@ -23,11 +23,19 @@
                                             <li class="center-align"><a  class="grey-text text-lighten-3"  href="#">área do associado</a></li>
                                             <li class="center-align"><a  class="grey-text text-lighten-3"  href="#">contato</a></li>
                                         </ul>
-                                    </div>
+                                    </div> -->
 
 
-                                    <div class="col l3  s12">
-                                        <h5 class="white-text center-alig center-align">newsletter</h5>
+                                    <div class="col l5  s12  endereco" >
+                                        <p class="grey-text text-lighten-4">Av. Fábio Lucena , 1460 - 3º andar - Cond. Dois Irmãos - Japiim II
+                                           </p>
+                                           <p class="grey-text text-lighten-4">
+                                             Cep: 69076-800 - Manaus - AM +55 (92) 3237-3817 | 3307-3817
+                                           </p>
+                                        <p class="grey-text text-lighten-4" style="font-size: 20px;
+    font-weight: 700;">www.simplast-am.org.br</p>
+
+                                        <!-- <h5 class="white-text center-alig center-align">newsletter</h5>
                                         <div class="input-field col l12 s12">
                                             <i class="material-icons prefix">account_circle</i>
                                             <input id="nome" type="text" class="validate">
@@ -43,23 +51,28 @@
                                             <input id="email" type="text" class="validate">
                                             <label for="email">Email</label>
                                             <a class="waves-effect waves-light btn right grey">Cadastrar</a>
-                                        </div>
+                                        </div> -->
 
                                     </div>
 
                                 </div>
-                                <div class="footer-copyright">
-                                    <div class="container">
-                                        © 2016 Todos os Direito Reservados
-                                    </div>
-                                </div>
+
                         </footer>
 
     <script src="{{"/res/lib/js/jquery.js" | prepend: site.baseurl }}"></script>
     <script src="{{"/res/app/libs.js" | prepend: site.baseurl }}"></script>
     <script src="{{"/res/app/simplast.js" | prepend: site.baseurl }}"></script>
 
+<script>
+var slides = document.querySelector('.slides');
 
+if(slides){
+
+  slides.style.background =  "#001ffd";
+}
+
+
+</script>
 
 
     </body>
