@@ -25,7 +25,7 @@ O programa entra em vigor, em setembro de 2016 para as empresas que faturaram ma
 
 
 
-Opinião
+>Opinião
 >Socorro Gomes - Gerente de RH TUTTIPLAST
 >
 >![imagem de mulher](/simplast/res/img/sgomes.jpg)
