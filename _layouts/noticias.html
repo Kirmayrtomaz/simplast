@@ -17,16 +17,16 @@
                     {% for post in site.categories.noticias limit:3 %}
 
                         <div class="col l4 m4 s12">
-                            <div class="card hoverable">
+                            <div class="card hoverable z-depth-1">
                                 <div class="card-content">
                                   <img src="{{ post.images[0].url | prepend: site.baseurl}}" style="
     width: 100%;
     height:auto;
     max-height: 175px;
 ">
-                                    <p><a class="nome-noticia"   href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+                                    <p><a class="nome-noticia"   href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncate:85 }}</a></p>
                                     <label>{{ post.date | date_to_string }}</label>
-                                    <p align="justify">{{ post.content | strip_html | truncate:100 }}
+                                    <p align="justify">{{ post.content | strip_html | truncate:90 }}
 
                                     </p>
                                     <br>
