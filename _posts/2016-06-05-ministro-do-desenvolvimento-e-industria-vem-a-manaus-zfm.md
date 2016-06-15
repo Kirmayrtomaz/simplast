@@ -6,7 +6,7 @@ categories: noticias
 
 images:
 
-  - url: /res/img/ministro.jpg
+  - url: /res/img/zonafranca.jpg
 ---
 
 

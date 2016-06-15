@@ -25,3 +25,21 @@ Além disso, será disponibilizado o Papa Cartão®. Nele os visitantes poderão
 [Referência do Conteúdo][72cda7d5]
 
   [72cda7d5]: http://www.ale.am.gov.br/2016/06/01/ministro-do-desenvolvimento-e-industria-vem-a-manaus-tratar-sobre-a-zfm/ "Referência do Conteúdo"
+  <div class="col s12 m12 l12 eventos">
+    <div class="card hoverables">
+
+        <div class="card-action">
+
+            <a class="social " href="javascript:void(0)">
+                <img class="hoverable " src="/simplast/res/img/facebook-icon.png" alt="Compartilhar no Facebook">
+            </a>
+            <a class="social " href="javascript:void(0)">
+                <img class="hoverable " src="/simplast/res/img/instagram-icon.png" alt="Compartilhar no Instagram">
+            </a>
+            <a class="social " href="javascript:void(0)">
+                <img class="hoverable " src="/simplast/res/img/twitter-icon.png" alt="Compartilhar no Twitter">
+            </a>
+            <span class="compartilhe">compartilhe</span>
+        </div>
+    </div>
+  </div>
