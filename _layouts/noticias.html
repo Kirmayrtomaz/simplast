@@ -9,38 +9,44 @@
         <main class="principal row">
         	<div class="col l12">
         	<div class="row">
-        		<section class="col l8 s12">
+        		<section class="col l9 s12 eventos">
                     <h4>Notícias</h4>
-                      <div class="row">
+                      <div class="row   bloco-eventos">
 
 
                     {% for post in site.categories.noticias limit:3 %}
 
-                        <div class="col l4 m4 s12">
-                            <div class="card hoverable z-depth-1">
-                                <div class="card-content">
-                                  <img src="{{ post.images[0].url | prepend: site.baseurl}}" style="
-    width: 100%;
-    height:auto;
-    max-height: 175px;
-">
-                                    <p><a class="nome-noticia"   href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncate:85 }}</a></p>
-                                    <label>{{ post.date | date_to_string }}</label>
-                                    <p align="justify">{{ post.content | strip_html | truncate:90 }}
+                    <div class="col s12 m12 l4">
+                        <div class="card hoverable z-depth-1">
+                          <a  href="{{ site.baseurl }}{{ post.url }}">
+                            <div class="card-image ">
+                              {% assign image = post.images[0] %}
+                                <img src="{{ post.images[0].url | prepend: site.baseurl}}">
+                                <!-- <span class="card-title">{{post.title  | strip_html | truncate:40}}</span> -->
+                            </div>
+                            <div class="card-content ">
+                                {{ post.content | strip_html | truncate:90 }}
+                            </div>
+                          </a>
+                            <div class="card-action">
 
-                                    </p>
-                                    <br>
-                                    <div class="center-align">
-                                        <a class="waves-effect blue darken-4 btn"  href="{{ site.baseurl }}{{ post.url }}">leia Mais</a>
-                                    </div>
-                                </div>
+                                <a class="social " href="javascript:void(0)">
+                                    <img class="hoverable " src="{{site.baseurl}}/res/img/facebook-icon.png" alt="Compartilhar no Facebook">
+                                </a>
+                                <a class="social " href="javascript:void(0)">
+                                    <img class="hoverable " src="{{site.baseurl}}/res/img/instagram-icon.png" alt="Compartilhar no Instagram">
+                                </a>
+                                <a class="social " href="javascript:void(0)">
+                                    <img class="hoverable " src="{{site.baseurl}}/res/img/twitter-icon.png" alt="Compartilhar no Twitter">
+                                </a>
+                                <span class="compartilhe">compartilhe</span>
                             </div>
                         </div>
-
+                    </div>
                   {% endfor %}
                     </div>
         		</section>
-        		<section class="col l4 s12 ">
+        		<section class="col l3 s12 ">
         			<h4>Últimas Notícias</h4>
                     <div class="input-field col l12 s12 m12">
                         <i class="material-icons prefix">search</i>
